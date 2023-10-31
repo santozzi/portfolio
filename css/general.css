@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+
+@import url(./general-mobile.css);
+:root{
+  --home-color: #e12223;
+
+  --proyectos-color: #f8e71c;
+  --galeria-color: #2DA1D1;
+  --contacto-color: #7ed321;
+  --header-color: #001f3b;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.seccion-activada p{
+  
+  font-weight: bold;
+ 
+}
+.seccion-activada i{
+  -webkit-text-stroke-width: 0.51px;
+  -webkit-text-stroke-color: black;
+  color:#ffffff;
+ 
+}

@@ -1,0 +1,44 @@
+.body-contacto{
+    background-color: var(--contacto-color);
+}
+.section-contacto{
+    width: 100%;
+    padding:20px;
+}
+.container-contacto{
+ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    background-color: white;
+    padding:12px;
+    
+    border-radius: 20px;
+}
+.container-contacto form{
+    gap:20px;
+    width: 100%;
+  }
+.container-contacto form input,textarea,button{
+  width: 100%;
+  padding:0.7em;
+  border:none;
+  border-bottom: solid 1px var(--contacto-color);
+  background: none;
+  outline: 0;
+  margin:10px 0;
+}
+.container-contacto form button{
+  border:none;
+  background-color: var(--contacto-color);
+  color:white;
+  text-transform: uppercase;
+}
+.vias-de-contacto{
+    background-color: var(--contacto-color);
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}

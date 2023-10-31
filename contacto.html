@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/fc5b6abbcf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="body-contacto">
+    <header>
+      <div class="seccion">
+        <i class="fa-solid fa-envelope-open-text"></i>
+        <p>CONTACTO</p>
+      </div>
+      <div class="fondo">
+        <img src="./img/yo.png" alt="yo" />
+        <p>Sergio Antozzi</p>
+      </div>
+    </header>
+    <nav>
+      <a href="./index.html">
+        <div class="nav-home">
+          <i class="fa-solid fa-house"></i>
+          <p>HOME</p>
+        </div>
+      </a>
+
+      <a href="./proyectos.html">
+        <div class="nav-proyectos">
+          <i class="fa-solid fa-compass-drafting"></i>
+          <p>PROYECTOS</p>
+        </div>
+      </a>
+      <a href="./galeria.html">
+        <div class="nav-galeria">
+          <i class="fa-regular fa-images"></i>
+          <p>GALERIA</p>
+        </div>
+      </a>
+      <a href="./contacto.html">
+        <div class="nav-contacto seccion-activada">
+          <i class="fa-solid fa-envelope-open-text"></i>
+          <p>CONTACTO</p>
+        </div>
+      </a>
+    </nav>
+
+    <main>
+      <section class="section-contacto">
+        <div class="container-contacto">
+          <form>
+            <!-- Nombre, Email, Teléfono, Comentario<br> -->
+           
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre"
+              required
+            /><br>
+            
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            /><br>
+            
+            <input
+              type="tel"
+              name="telefono"
+              id="telefono"
+              placeholder="Telefono"
+              required
+            /><br>
+            
+            <textarea
+              name="comentario"
+              id="comentario"
+              cols="30"
+              rows="10"
+              placeholder="Comentario"
+              required
+            ></textarea>
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+            <!-- TODO: agregar checkbox y radio -->
+          </form>
+          <div class="vias-de-contacto">
+            <p>telefono</p>
+            <p>email</p>
+            <p>linkedin</p>
+            <p>github</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="logo">S. J. A.</div>
+      <div class="socialMedias">
+        <div>
+          <i class="fa-brands fa-github"></i
+          ><a href="https://github.com/santozzi" target="_blank">Github</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-linkedin"></i
+          ><a
+            href="https://www.linkedin.com/in/sergio-antozzi-961891173/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

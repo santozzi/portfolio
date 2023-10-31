@@ -1,0 +1,13 @@
+/* Normalize*/
+@import url(./normalize.css);
+/* Estilos compartidos*/
+@import url(./general.css);
+
+/* home */
+@import url(./Home/home.css);
+/* proyectos */
+@import url(./Proyectos/proyectos.css);
+/* home */
+@import url(./Galeria/galeria.css);
+/* contacto */
+@import url(./Contacto/contacto.css);
