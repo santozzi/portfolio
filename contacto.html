@@ -17,37 +17,43 @@
         <p>CONTACTO</p>
       </div>
       <div class="fondo">
-        <img src="./img/yo.png" alt="yo" />
-        <p>Sergio Antozzi</p>
+        <div class="container-avatar-text">
+          <figure>
+            <img src="./img/yo.png" alt="yo" />
+          </figure>
+          <p>Sergio Antozzi</p>
+        </div>
       </div>
     </header>
-    <nav>
-      <a href="./index.html">
-        <div class="nav-home">
-          <i class="fa-solid fa-house"></i>
-          <p>HOME</p>
-        </div>
-      </a>
+<div class="container-nav">
+  <nav>
+    <a href="./index.html">
+      <div class="nav-home">
+        <i class="fa-solid fa-house"></i>
+        <p>HOME</p>
+      </div>
+    </a>
 
-      <a href="./proyectos.html">
-        <div class="nav-proyectos">
-          <i class="fa-solid fa-compass-drafting"></i>
-          <p>PROYECTOS</p>
-        </div>
-      </a>
-      <a href="./galeria.html">
-        <div class="nav-galeria">
-          <i class="fa-regular fa-images"></i>
-          <p>GALERIA</p>
-        </div>
-      </a>
-      <a href="./contacto.html">
-        <div class="nav-contacto seccion-activada">
-          <i class="fa-solid fa-envelope-open-text"></i>
-          <p>CONTACTO</p>
-        </div>
-      </a>
-    </nav>
+    <a href="./proyectos.html">
+      <div class="nav-proyectos">
+        <i class="fa-solid fa-compass-drafting"></i>
+        <p>PROYECTOS</p>
+      </div>
+    </a>
+    <a href="./galeria.html">
+      <div class="nav-galeria">
+        <i class="fa-regular fa-images"></i>
+        <p>GALERIA</p>
+      </div>
+    </a>
+    <a href="./contacto.html">
+      <div class="nav-contacto seccion-activada">
+        <i class="fa-solid fa-envelope-open-text"></i>
+        <p>CONTACTO</p>
+      </div>
+    </a>
+  </nav>
+</div>
 
     <main>
       <section class="section-contacto">
@@ -92,10 +98,26 @@
             <!-- TODO: agregar checkbox y radio -->
           </form>
           <div class="vias-de-contacto">
-            <p>telefono</p>
-            <p>email</p>
-            <p>linkedin</p>
-            <p>github</p>
+            <div class="vias-contacto-iconos">
+              <i class="fa-solid fa-envelope"></i>
+              <p>email:</p>
+              <p>santozzi@gmail.com</p>
+            </div>
+            <div class="vias-contacto-iconos">
+              <i class="fa-solid fa-phone"></i>
+              <p>telefono:</p>
+              <p>(+54) 291 5204590</p>
+            </div>
+            <div class="vias-contacto-iconos">
+              <i class="fa-brands fa-linkedin"></i
+                ><a
+                  href="https://www.linkedin.com/in/sergio-antozzi-961891173/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              
+            </div>
+  
           </div>
         </div>
       </section>

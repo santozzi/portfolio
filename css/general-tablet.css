@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+    .fondo{
+      justify-content: end;
+      background-image: url(../../img/mesaCompu.png);
+    }
+    .container-avatar-text {
+      display: flex;
+      
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+      background-color: #ffffff50;
+      padding: 20px;
+      border-radius: 0;
+      margin:0;
+  
+  }
+  .container-nav{
+      top:50%;
+      bottom: 50%;
+      justify-content: start;
+  }
+  nav{
+      flex-direction: column;
+      padding:40px 10px;
+  }
+  section{
+    padding:20px;
+  }
+  }

@@ -3,13 +3,15 @@
 
 
 @import url(./general-mobile.css);
+@import url(./general-tablet.css);
+@import url(./general-desktop.css);
 :root{
-  --home-color: #e12223;
+  --home-color: #e1222390;
 
-  --proyectos-color: #f8e71c;
-  --galeria-color: #2DA1D1;
-  --contacto-color: #7ed321;
-  --header-color: #001f3b;
+  --proyectos-color: #f8e71c90;
+  --galeria-color: #2DA1D190;
+  --contacto-color: #7ed32190;
+  --header-color: #000000;
 }
 
 *{
@@ -29,4 +31,8 @@
   -webkit-text-stroke-color: black;
   color:#ffffff;
  
+}
+.link-texto{
+  font-weight: bold;
+  color:blue;
 }

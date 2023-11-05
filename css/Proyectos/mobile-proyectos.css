@@ -1,3 +1,77 @@
-.body-proyectos{
-  background-color: var(--proyectos-color);
+.seccion-proyectos article a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.seccion-proyectos{
+    
+    width: 100%;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+ 
+}
+.tarjeta{
+   
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+
+    width:320px;
+    height: 512px;
+   
+    border:1px solid #000000;
+    border-radius: 20px 20px 0 0 ;
+    background-color: white;
+    filter: drop-shadow(0px 0px 5px #000000);
+    
+    
+}
+.tarjeta .texto{
+    font-family: "Roboto", sans-serif;
+    padding:20px;
+}
+.tarjeta img{
+    width:320px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.tarjeta h3{
+    font-size: 1.5rem;
+}
+.tarjeta h4{
+    font-size: 1rem;
+    color: #444444;
+}
+.tarjeta p{
+    margin-top:10px;
+    text-align: justify;
+    
+}
+.tarjeta .links{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #cccccc;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+   
+}
+.tarjeta .links div{
+
+    width: auto;
+ 
+
 }

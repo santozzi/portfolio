@@ -1,7 +1,9 @@
-.body-contacto{
-    background-color: var(--contacto-color);
-}
+
 .section-contacto{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
     width: 100%;
     padding:20px;
 }
@@ -14,31 +16,52 @@
     filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
     background-color: white;
     padding:12px;
-    
+    width:400px;
     border-radius: 20px;
+    gap:20px;
 }
 .container-contacto form{
     gap:20px;
-    width: 100%;
+    max-width: 400px;
+    border:solid 1px #00000020;
   }
 .container-contacto form input,textarea,button{
   width: 100%;
   padding:0.7em;
   border:none;
-  border-bottom: solid 1px var(--contacto-color);
+  border-bottom: solid 1px #000000;
   background: none;
   outline: 0;
   margin:10px 0;
 }
 .container-contacto form button{
   border:none;
-  background-color: var(--contacto-color);
-  color:white;
+ 
+  color: white;
   text-transform: uppercase;
 }
 .vias-de-contacto{
-    background-color: var(--contacto-color);
-    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color:white;
+    gap:10px;
+    width: 250px;
     border-radius: 20px;
     padding: 20px;
+    height: 100%;
+}
+.vias-contacto-iconos{
+  width: 100%;
+  display: flex;
+  gap:5px;
+}
+.vias-contacto-iconos a{
+
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
 }
