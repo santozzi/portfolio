@@ -45,3 +45,6 @@
   text-align: justify;
   
 }
+.articulo-home p .link-texto-blanco a:visited{
+   color:white;
+}
