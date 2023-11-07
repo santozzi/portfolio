@@ -25,7 +25,7 @@
 
 
     width:320px;
-    height: 512px;
+    height: 550px;
    
     border:1px solid #000000;
     border-radius: 20px 20px 0 0 ;
@@ -61,7 +61,7 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     background-color: #cccccc;
     padding:5px;
     margin-top: 10px;
@@ -73,5 +73,17 @@
 
     width: auto;
  
+
+}
+.texto{
+    height: 100%;
+}
+.container-texto-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 100%;
 
 }

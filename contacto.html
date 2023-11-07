@@ -25,66 +25,80 @@
         </div>
       </div>
     </header>
-<div class="container-nav">
-  <nav>
-    <a href="./index.html">
-      <div class="nav-home">
-        <i class="fa-solid fa-house"></i>
-        <p>HOME</p>
-      </div>
-    </a>
+    <div class="container-nav">
+      <nav>
+        <a href="./index.html">
+          <div class="nav-home">
+            <i class="fa-solid fa-house"></i>
+            <p>HOME</p>
+          </div>
+        </a>
 
-    <a href="./proyectos.html">
-      <div class="nav-proyectos">
-        <i class="fa-solid fa-compass-drafting"></i>
-        <p>PROYECTOS</p>
-      </div>
-    </a>
-    <a href="./galeria.html">
-      <div class="nav-galeria">
-        <i class="fa-regular fa-images"></i>
-        <p>GALERIA</p>
-      </div>
-    </a>
-    <a href="./contacto.html">
-      <div class="nav-contacto seccion-activada">
-        <i class="fa-solid fa-envelope-open-text"></i>
-        <p>CONTACTO</p>
-      </div>
-    </a>
-  </nav>
-</div>
+        <a href="./proyectos.html">
+          <div class="nav-proyectos">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <p>PROYECTOS</p>
+          </div>
+        </a>
+        <a href="./galeria.html">
+          <div class="nav-galeria">
+            <i class="fa-regular fa-images"></i>
+            <p>GALERIA</p>
+          </div>
+        </a>
+        <a href="./contacto.html">
+          <div class="nav-contacto seccion-activada">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            <p>CONTACTO</p>
+          </div>
+        </a>
+      </nav>
+    </div>
 
     <main>
       <section class="section-contacto">
         <div class="container-contacto">
           <form>
-      
-           
             <input
               type="text"
               name="nombre"
               id="nombre"
               placeholder="Nombre"
               required
-            /><br>
-            
+            /><br />
+
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
               required
-            /><br>
-            
+            /><br />
+
             <input
               type="tel"
               name="telefono"
               id="telefono"
               placeholder="Teléfono"
               required
-            /><br>
-            
+            /><br />
+
+            <select name="devLang" id="lang">
+              <option value="0">Lengüaje o Libreria...</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="ReactJs">ReactJs</option>
+              <option value="NodeJs">NodeJs</option>
+            </select>
+            <div class="lugar-contacto">
+            <div class="remoto">
+              <input type="checkbox" id="Remoto" name="remoto" />
+              <label for="remoto">Remoto</label>
+            </div>
+            <div class="presencial">
+              <input type="checkbox" id="Presencial" name="presencial" />
+              <label for="presencial">Presencial</label>
+            </div>
+            </div>
             <textarea
               name="comentario"
               id="comentario"
@@ -110,14 +124,12 @@
             </div>
             <div class="vias-contacto-iconos">
               <i class="fa-brands fa-linkedin"></i
-                ><a
-                  href="https://www.linkedin.com/in/sergio-antozzi-961891173/"
-                  target="_blank"
-                  >Linkedin</a
-                >
-              
+              ><a
+                href="https://www.linkedin.com/in/sergio-antozzi-961891173/"
+                target="_blank"
+                >Linkedin</a
+              >
             </div>
-  
           </div>
         </div>
       </section>
